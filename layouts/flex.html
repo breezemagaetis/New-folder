@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .big {
+  display: flex;
+  flex-wrap: wrap;
+  }
+<!flex :0 1<basewidth>>
+
+.small {
+  //  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+   //  If we don't want the items to stretch:
+   flex: 0 1 300px;
+   //  If we do want the items to stretch:
+   flex: 1 1 300px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+  </style>
+  <body>
+<div class="big">
+  <div class="small">1</div>
+  <div class="small">2</div>
+  <div class="small">3</div>
+</div>
+</body>
