@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!Font size of the root element.=rem,can use contenteditable= to make the content ediitable by the user>
+<style>
+  .big {
+    display: grid;
+    place-items: center;
+    background: lightblue;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+  }
+  .small {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid red;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+   </style>
+   <body>
+     <div class="big" >
+       <div class="small">hello world</div>
+     </div>
+   </body>
